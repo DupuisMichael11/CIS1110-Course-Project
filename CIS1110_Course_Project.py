@@ -95,13 +95,13 @@ while keepPlaying.lower() == "yes":
         input(f"\nPress enter to continue the story...  ")
 
     #Alternate Endings
-    if singAlong == "yes" and singLullaby == "yes":
+    if singAlong. lower() == "yes" and singLullaby. lower() == "yes":
         slowprint(f"\n{bardName} soaking wet, beat and bruised, decided to head home to his quiet cottage in {forestName} forest.  ")
         slowprint(f"\nAs soon as he got home he threw his {instrument} in the trash. 'I'll never sing again!' they said.  ")
         slowprint(f"\nAnd because {bardName} never sang again, all the animals in the forest lived happily ever after.\n   ")
-    elif singAlong == "no" and singLullaby == "no":
+    elif singAlong. lower() == "no" and singLullaby. lower() == "no":
         slowprint(f"\n{bardName} happily strode home to their cottage in {forestName} forest. Playing their {instrument} all the way.  ")
-        slowprint(f"\nAnd they say to this day whenever one enters {forestname} forest, ")
+        slowprint(f"\nAnd they say to this day whenever one enters {forestName} forest, ")
         slowprint(f"\nYou can still hear the sweet melody of {bardName}'s {instrument} playing through the forest.\n  ")
     else:
         slowprint(f"\n{bardName} went home confused, they couldn't tell why some animals were so mean and other so sweet.  ")
